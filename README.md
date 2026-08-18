@@ -32,3 +32,12 @@ This repository contains the practical work and project tasks completed during m
 
 **Organization:** Elevance Skills  
 **Domain:** AWS / Cloud Computing
+
+
+## AWS Budget Setup
+
+A budget was configured to monitor the estimated AWS project spending.
+
+### Screenshot
+
+![AWS Budget Setup](aws-budget-setup.jpg)
