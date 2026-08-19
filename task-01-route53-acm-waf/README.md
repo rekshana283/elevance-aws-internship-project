@@ -42,3 +42,5 @@ Screenshots will be added as implementation progresses.
 ## Status
 
 Completed
+
+![Task 1 Architecture](./Task%201%20architecture.jpg)
