@@ -46,3 +46,21 @@ Completed
 ## Architecture diagram 
 
 ![Task 1 AWS Architecture](task-01-architecture.jpg)
+
+
+## Task 1 Screenshots
+
+### 1. Route 53 Domain Setup
+![Route 53](./task-01-route53.png)
+
+### 2. ACM SSL Certificate
+![ACM Certificate](./task-01-acm.png)
+
+### 3. CloudFront HTTPS Configuration
+![CloudFront](./task-01-cloudfront.png)
+
+### 4. AWS WAF Configuration
+![AWS WAF](./task-01-waf.png)
+
+### 5. Route 53 Failover Configuration
+![Failover Routing](./task-01-failover.png)
