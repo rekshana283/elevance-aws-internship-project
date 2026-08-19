@@ -43,4 +43,6 @@ Screenshots will be added as implementation progresses.
 
 Completed
 
-![Task 1 Architecture](./Task%201%20architecture.jpg)
+## Architecture diagram 
+
+![Task 1 AWS Architecture](task-01-architecture.jpg)
