@@ -1,4 +1,4 @@
-# Elevance Skills – AWS Internship Project
+# Evershop – AWS Cloud Deployment & Security Project
 
 This repository contains the practical work and project tasks completed during my Elevance Skills internship.
 
