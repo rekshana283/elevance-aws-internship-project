@@ -12,7 +12,7 @@ The infrastructure was configured using Amazon VPC, subnets, route tables, secur
 
 The following diagram represents the AWS infrastructure created for the Evershop application.
 
-![Evershop Architecture](architecture/evershop-architecture.png)
+![Evershop Architecture](architecture/evershop-architecture.jpeg)
 
 ---
 
