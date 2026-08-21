@@ -88,19 +88,19 @@ Created an Amazon CloudFront distribution using the Application Load Balancer as
 
 ---
 
-## AWS WAF Protection Pack
+## 10. AWS WAF Protection Pack
 
 Created the AWS WAF protection pack named `EverShop Cloud Front WAF` to protect the Evershop CloudFront distribution against common web application threats.
 
 ![WAF Protection Pack](screenshots/10-waf-protection-pack.png)
 
-## WAF Resources and Protection Packs
+## 11. WAF Resources and Protection Packs
 
 Configured the WAF protection resources and Web ACL for the Evershop CloudFront distribution.
 
 ![WAF Resources and Protection Packs](screenshots/11-waf-resources-and-protection-packs.png)
 
-## CloudFront Web Application Firewall
+## 12. CloudFront Web Application Firewall
 
 Enabled AWS WAF security protection for the Evershop CloudFront distribution to help protect the application from common web threats and vulnerabilities.
 
