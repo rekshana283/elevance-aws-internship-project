@@ -88,48 +88,20 @@ Created an Amazon CloudFront distribution using the Application Load Balancer as
 
 ---
 
-## Security Configuration
+## AWS WAF Protection Pack
 
-Security groups were configured to control access to the EC2 instance and Application Load Balancer.
+Created the AWS WAF protection pack named `EverShop Cloud Front WAF` to protect the Evershop CloudFront distribution against common web application threats.
 
-SSH access was configured using a restricted source IP rather than allowing unrestricted access.
+![WAF Protection Pack](screenshots/10-waf-protection-pack.png)
 
-AWS WAF, Route 53, and ACM configuration remain pending because the current AWS Free plan does not allow domain registration through Route 53.
+## WAF Resources and Protection Packs
 
----
+Configured the WAF protection resources and Web ACL for the Evershop CloudFront distribution.
 
-## Cost Considerations
+![WAF Resources and Protection Packs](screenshots/11-waf-resources-and-protection-packs.png)
 
-AWS resources were created with cost awareness.
+## CloudFront Web Application Firewall
 
-The AWS account currently has promotional credits available, but chargeable services were enabled only when required for the project.
+Enabled AWS WAF security protection for the Evershop CloudFront distribution to help protect the application from common web threats and vulnerabilities.
 
-NAT Gateway was not created because it is not required for the current Task 1 implementation and can generate hourly and data-processing charges.
-
----
-
-## Current Status
-
-The core AWS infrastructure for Task 1 has been created and configured.
-
-Implemented components:
-
-- Amazon VPC
-- Public and private subnets
-- Internet Gateway
-- Route tables
-- Security groups
-- Amazon EC2
-- Target group
-- Application Load Balancer
-- Amazon CloudFront
-
-Pending components:
-
-- Route 53 domain
-- ACM public certificate
-- AWS WAF
-- HTTPS/HSTS configuration
-- Failover routing
-
-These remaining components depend on domain registration and the current AWS account plan.
+![CloudFront WAF Security](screenshots/12-cloudfront-waf-security.png)
