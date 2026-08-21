@@ -8,7 +8,7 @@ Deploy a secure Multi-AZ MySQL Amazon RDS database for the Evershop application 
 
 The following diagram represents the AWS infrastructure designed for the secure Evershop RDS deployment.
 
-![Task 2 Architecture](architecture/architecture-diagram.jpeg)
+![Task 2 RDS Architecture](architecture/task-2-rds-architecture.jpeg)
 
 ## RDS DB Subnet Group
 
