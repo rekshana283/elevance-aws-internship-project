@@ -14,10 +14,10 @@ The following diagram represents the AWS infrastructure designed for the secure 
 
 Created the Evershop RDS DB subnet group using private database subnets across two Availability Zones.
 
-![RDS Subnet Group](screenshots/13-rds-subnet-group.png)
+![RDS Subnet Group](screenshot/13-rds-subnet-group.png)
 
 ## RDS Free Plan Limitation
 
 Verified that the AWS Free Plan currently provides only Single-AZ deployment for the MySQL RDS configuration, while the project requirement specifies Multi-AZ deployment. The RDS database was therefore not created.
 
-![RDS Free Plan Limitation](screenshots/14-rds-multiaz-free-plan-limitation.png)
+![RDS Free Plan Limitation](screenshot/14-rds-multiaz-free-plan-limitation.png)
