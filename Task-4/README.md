@@ -60,4 +60,4 @@ A new task definition revision was created to update the ECS deployment configur
 ### 9. ECS Service
 The ECS service manages the running application tasks and maintains the desired task count.
 
-![ECS Service](screenshots/31-ecs-services.png
+![ECS Service](screenshots/31-ecs-services.png)
