@@ -10,26 +10,18 @@ The following diagram represents the AWS infrastructure designed for the highly 
 
 ![Task 3 Auto Scaling Architecture](architecture/task-3-auto-scaling-architecture.jpeg)
 
-## Auto Scaling Group
-
-The Evershop application will use an Auto Scaling Group to maintain application availability across multiple Availability Zones.
-
-## Mixed Instance Deployment
-
-The Auto Scaling Group will use both On-Demand and Spot Instances to balance availability and infrastructure cost.
-
 ## Application Load Balancer
 
 The Application Load Balancer will distribute incoming application traffic across healthy EC2 instances.
 
-## Lifecycle Hooks
+![Application Load Balancer](screenshots/27-load-balancers.png)
 
-Lifecycle hooks will be used to perform warm-up and initialization tasks before instances receive production traffic.
+### 18. Launch Template
+The Launch Template defines the configuration used when new EC2 instances are launched by the Auto Scaling Group.
 
-## Scaling Policies
+![Launch Template](screenshots/18-launch-template.png)
 
-Scaling policies will use CPU utilization and Application Load Balancer request counts to dynamically adjust application capacity.
+### 19. Auto Scaling Group
+The Auto Scaling Group was configured to manage the required EC2 capacity and maintain the desired number of instances.
 
-## Chaos Testing
-
-The application architecture will be tested by terminating instances and simulating Availability Zone failures to validate high availability.
+![Auto Scaling Group](screenshots/19-auto-scaling-groups.png)
