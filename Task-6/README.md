@@ -10,30 +10,17 @@ The following diagram represents the AWS infrastructure designed for advanced Ev
 
 ![Task 6 S3 Storage Architecture](architecture/task-6-s3-storage-architecture.jpeg)
 
-## Private S3 Bucket
+### 1. S3 Buckets
+An S3 bucket was configured to store product images and related application assets.
 
-A private S3 bucket will store Evershop product images with bucket-owner-enforced access and encryption enabled.
+![S3 Buckets](screenshots/20-buckets.png)
 
-## Pre-signed URLs
+### 2. Lifecycle Configuration
+Lifecycle rules were configured to manage objects automatically and help control long-term storage usage.
 
-Pre-signed URLs will provide controlled access for product image uploads and downloads.
+![Lifecycle Configuration](screenshots/21-lifecycle-configuration.png)
 
-## CloudFront Delivery
+### 3. Inventory Configuration
+S3 Inventory was configured to provide scheduled information about objects stored in the bucket.
 
-Amazon CloudFront will securely distribute product images from the private S3 origin.
-
-## S3 Object Lambda
-
-S3 Object Lambda will provide on-demand image transformations such as thumbnail generation.
-
-## Lifecycle Management
-
-S3 Intelligent-Tiering and Glacier transitions will be configured to optimize long-term storage costs.
-
-## S3 Inventory
-
-S3 Inventory will provide scheduled reports about objects stored in the product image bucket.
-
-## Malware Scanning
-
-New product image uploads will trigger a Lambda-based malware scanning workflow using ClamAV before the files are made available to the application.
+![Inventory Configuration](screenshots/22-inventory-configuration.png)
