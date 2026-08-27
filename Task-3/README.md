@@ -10,18 +10,18 @@ The following diagram represents the AWS infrastructure designed for the highly 
 
 ![Task 3 Auto Scaling Architecture](architecture/task-3-auto-scaling-architecture.jpeg)
 
-## Application Load Balancer
+## 1. Application Load Balancer
 
 The Application Load Balancer will distribute incoming application traffic across healthy EC2 instances.
 
 ![Application Load Balancer](screenshots/27-load-balancers.png)
 
-### 18. Launch Template
+### 2. Launch Template
 The Launch Template defines the configuration used when new EC2 instances are launched by the Auto Scaling Group.
 
 ![Launch Template](screenshots/18-launch-template.png)
 
-### 19. Auto Scaling Group
+### 3. Auto Scaling Group
 The Auto Scaling Group was configured to manage the required EC2 capacity and maintain the desired number of instances.
 
 ![Auto Scaling Group](screenshots/19-auto-scaling-groups.png)
