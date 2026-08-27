@@ -10,22 +10,12 @@ The following diagram represents the AWS infrastructure designed for secure and 
 
 ![Task 5 CloudFront Architecture](architecture/task-5-cloudfront-architecture.jpeg)
 
-## Private S3 Origin
+### 1. CloudFront Distribution
+The CloudFront distribution was configured to provide a CDN layer for delivering application content through AWS edge locations.
 
-A private Amazon S3 bucket will be used to store Evershop product images while preventing direct public access.
+![CloudFront Distribution](screenshots/23-cloudfront-distribution.png)
 
-## CloudFront Origin Access Control
+### 2. Lambda Function
+The Lambda function was configured as part of the edge-processing workflow to modify or process requests at the CloudFront edge.
 
-Amazon CloudFront will securely access the private S3 origin through Origin Access Control.
-
-## Lambda@Edge Enhancements
-
-Lambda@Edge will be used to modify caching behavior, block malicious query strings, and dynamically optimize image formats.
-
-## Signed URLs
-
-Short-lived signed URLs will be used to control access to private assets.
-
-## Cache Performance
-
-CloudFront cache hit ratios will be monitored across multiple geographic regions to validate content delivery performance.
+![Lambda Function](screenshots/24-lambda-function.png)
