@@ -25,19 +25,19 @@ Verified that the AWS Free Plan currently provides only Single-AZ deployment for
 ### 3. RDS Database
 The PostgreSQL database was created in Amazon RDS to provide the database backend for the Evershop application.
 
-![RDS Database](screenshots/17-rds-database.png)
+![RDS Database](screenshot/17-rds-database.png)
 
 ### 4. RDS Parameter Group
 The parameter group was reviewed and configured for the database engine settings used by the application.
 
-![RDS Parameter Group](screenshots/32-rds-parameter-groups.png)
+![RDS Parameter Group](screenshot/32-rds-parameter-groups.png)
 
 ### 5. Secrets Manager
 AWS Secrets Manager was used to securely store the database credentials instead of keeping sensitive values directly in the application configuration.
 
-![Secrets Manager](screenshots/33-secrets.png)
+![Secrets Manager](screenshot/33-secrets.png)
 
 ### 6. Secret Details
 The secret configuration was verified to ensure the required database connection credentials were stored correctly.
 
-![Secret Details](screenshots/34-secret-details.png)
+![Secret Details](screenshot/34-secret-details.png)
